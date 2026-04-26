@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  gap: 3rem;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+body {
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.plants-section {
+  background: #fafafa;
+  padding: 1.5rem;
+  border-radius: 12px;
+}

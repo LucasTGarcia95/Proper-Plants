@@ -1,0 +1,50 @@
+.cart {
+  width: 300px;
+}
+
+.cart h2 {
+  margin-bottom: 1rem;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 0.75rem 0;
+}
+
+.cart-item .emoji {
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.cart-item .name {
+  flex: 1;
+  margin-left: 0.5rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.controls button {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.controls button:hover {
+  background: #ccc;
+}
+
+.controls span {
+  min-width: 20px;
+  text-align: center;
+}
